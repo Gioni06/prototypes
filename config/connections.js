@@ -42,9 +42,9 @@ module.exports.connections = {
   ***************************************************************************/
   mysql: {
     adapter: 'sails-mysql',
-    host: 'localhost',
+    host: '192.168.1.100',
     user: 'root',
-    password: '',
+    password: 'oygo!dev',
     database: 'sailsapi'
   },
 
@@ -56,13 +56,12 @@ module.exports.connections = {
   * Run: npm install sails-mongo                                             *
   *                                                                          *
   ***************************************************************************/
-  someMongodbServer: {
+  mongodb: {
     adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
+    host: '127.0.0.1',
+    port: 27017
     // user: 'username',
     // password: 'password',
-    // database: 'your_mongo_db_name_here'
   },
 
   /***************************************************************************
