@@ -1,0 +1,21 @@
+{
+  "name": "SailsApp",
+  "version": "0.1.0",
+  "authors": [
+    "Jonas <jonas.duri@googlemail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "www.oygo.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0",
+    "modernizr": "~2.8.3"
+  }
+}
